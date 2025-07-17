@@ -36,7 +36,12 @@ header {
     top: 0;
     z-index: 1000;
 }
-
+   .favicon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: skyblue;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -130,15 +135,15 @@ nav {
     display: block;
 }
 .hero-text h1 {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     margin-bottom: 1rem;
     color: var(--dark);
 }
 
 .hero-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--primary);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
     font-weight: 500;
 }
 
@@ -550,7 +555,7 @@ footer {
 }
 
 
-<style>
+
     /* NEW: CV Download Button Styles */
     .download-cv {
         display: flex;
@@ -693,3 +698,4 @@ footer {
             grid-template-columns: 1fr;
         }
     }
+ 
